@@ -1,0 +1,97 @@
+*{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+
+}
+
+.fas{
+    font-size: small;
+}
+
+.low{
+    opacity: 0.5;
+}
+
+.green{
+    color: rgb(2, 173, 116);
+    font-weight: bold;
+}
+.pricetag{
+    white-space:nowrap;
+    position:relative;
+    margin:0 5px 0 10px;
+    displaY:inline-block;
+    height:25px;
+    border-radius: 0 5px 5px 0;
+    padding: 0 10px 0 10px;
+    background:#e65b56;
+    color: white;
+    border: 1px solid #c7d2d400;
+    /* color:#999; */
+}
+.pricetag:after{
+    position:absolute;
+    font-weight:bold;
+    font-size:19px;
+}
+.pricetag:before{
+    position:absolute;
+    background:#e65b56;
+    content:"\25CF";
+    color:white;
+    text-shadow: 0 0 1px #aaa;
+    font-size:12px;
+    line-height:13px;
+    text-indent:6px;
+    top:3px;
+    left:-10px;
+    width: 18px;
+    height: 18px;
+    transform: rotate(45deg);
+    border-left:1px solid #c7d2d400;
+    border-bottom:1px solid #c7d2d400;
+}
+
+
+.mainprice{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #e65b56;
+}
+
+.flat{
+    background-color: rgba(85, 250, 195, 0.356);
+    padding: 5px 12px;
+}
+
+.overlay{
+    background-color: whitesmoke;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 15px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    color: black;
+  }
+
+  .ycard{
+      background-color: rgb(255, 196, 0);
+      padding: 10px;
+      border-radius: 5px;
+      margin-left: 32vw;
+      margin-top: 20px;
+  }
+
+  .prom{
+      background-color: skyblue;
+      padding: 5px;
+      color: white;
+      margin-top: -30px;
+      margin-left: 30vw;
+  }
+
+  
